@@ -3,22 +3,41 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
+React is an open-source, front end, JavaScript library. it is maintained by Facebook and a community of individual developers and companies
+  - Is a JS based library run by Facebook
+  - Used to manage the DOM and create highly performant user interfaces
+  - Uses component based architecture and unidirectional data flow
+  - Has it's own virtual DOM
 
 2.  What is create-react-app?
+Create React App is a tool that helps start the process of building React apps.  It sets up your project after running the Create React App command
+  - A package that sets up a new React project
+  - Also sets up a developer server that will auto-refresh on changes
 
 3.  What is Component Based Architecture?
+Component-based architecture is the decomposition 
+  - the concept of encapsulating individual pieces of code to bring together into a larger project/app
 
 4.  What is JSX?
+is the use of JavaScript with html
+  - It is the syntax that React uses (looks very much like HTML)
+  - It is eventually transpiled into regular JS function calls
+  - JSX is not special only to React
 
 5.  What is the virtual DOM?
+  - A lightweight copy of the actual DOM
+  - React updates the virtual DOM when any changes to a component are made, then uses the virtual DOM to decide what parts of the actual DOM to change, only updates that need to be updated
 
 6.  What is unidirectional (one-way) data flow?
+  - Data can only flow one way to other parts of the application (e,g,, parent to child using props)
+  - This ensures we a have a "Single Source of Truth"
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+  -
 
 8.  Explain what this code does:
 
